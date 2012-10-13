@@ -25,6 +25,33 @@ gachar.run(1024, function (string4) {
 });
 ```
 
+###Browser with Jam (AMD support)
+
+    $ jam install gachar
+
+```
+<script src="jam/require.js"></script>
+<script>
+require(['gachar'], function (gachar) {
+    var string = gachar.run(128);
+});
+</script>
+```
+
+
+###or browser plain
+
+Requires [asyncall](https://github.com/kumatch/asyncall) .
+
+```
+<script type="text/javascript" src="asyncall-x.x.x.min.js"></script>
+<script type="text/javascript" src="gachar-x.x.x.min.js"></script>
+<script>
+var string = gachar.run();
+</script>
+```
+
+
 
 
 License
