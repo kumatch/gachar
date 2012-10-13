@@ -1,0 +1,25 @@
+{
+  "author": "Yosuke Kumakura <kumatch@gmail.com>",
+  "name": "gachar",
+  "description": "",
+  "version": "0.1.0",
+  "main": "./lib/gachar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kumatch/gachar.git"
+  },
+  "github": "https://github.com/kumatch/gachar",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha":"*",
+    "should":"*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
