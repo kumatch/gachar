@@ -2,7 +2,7 @@
   "author": "Yosuke Kumakura <kumatch@gmail.com>",
   "name": "gachar",
   "description": "creates random string (A-Z, a-z, 0-9)",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "./lib/gachar",
   "repository": {
     "type": "git",
